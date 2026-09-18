@@ -1,11 +1,8 @@
-let currentTicketNumber = 0
+const yeBankBalance = BigInt(9_025_156_421_648)
 
-function getNextTicketNumber() {
-    // return currentTicketnumber++  //normal increment
-    return ++currentTicketNumber  //pre-increment
-    // return --currentTicketnumber //pre-decrement
-}
+const yeBankBalance2 = 9_025_156_421_648 //numeric separator
 
-console.log(`Guest 1, your ticket number is: ${getNextTicketNumber()}`)
-console.log(`Guest 2, your ticket number is: ${getNextTicketNumber()}`)
-console.log(`Guest 3, your ticket number is: ${getNextTicketNumber()}`)
+console.log(typeof(yeBankBalance))
+//console.log(Math.sqrt(yeBankBalance))
+
+console.log(Math.sqrt(yeBankBalance2))
