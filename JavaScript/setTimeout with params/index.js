@@ -11,3 +11,6 @@ document.getElementById('stop').addEventListener('click', function(){
     clearTimeout(questionTimer)
     console.log('Canelling....')
 })
+
+// setTimeout is used to do the function in the defined once time
+// setInterval is used to do the function in every defined time
